@@ -43,6 +43,8 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-.h4 {
-	background-color: #ea2b1f;
+
+
+$theme-colours: {
+	"danger": #ea2b1f
 }
