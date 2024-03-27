@@ -45,6 +45,8 @@ footer a:hover {
 
 
 
-$theme-colours: {
-	"danger": #ea2b1f
+background-color: var(--danger)
+
+:root {
+	--danger: #ea2b1f;
 }
