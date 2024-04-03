@@ -12,8 +12,10 @@ body {
 /* Changing the background colour for the header */
 
 header {
+	color: white;
 	background-color: #191716;
 }
+
 
 /* Changing the background color for the navigation bar */
 
