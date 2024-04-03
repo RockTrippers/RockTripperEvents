@@ -56,9 +56,15 @@ footer a:hover {
 
 .COLOR3 {
 	color: #B2ABF2;
-	font-family: Raleway, sans-serif;
 }
 
 .COLOR4 {
 	color: #E6AF2E;
+}
+
+.background-color1 {
+background-color: #EA2B1F;}
+
+.background-color2 { 
+background-color: #191716; 
 }
