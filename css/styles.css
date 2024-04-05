@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Outfit", sans-serif; font-weight: 400;
+	background-color: #6E7271;
 }
 
 /* Changing the background colour for the header */
@@ -91,3 +92,4 @@ footer a:hover {
 .background-color5grey {
 	background-color: #6E7271;
 }
+
