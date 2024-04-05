@@ -21,10 +21,11 @@ header {
   font-optical-sizing: auto;
   font-weight: <400>;
   font-style: normal;
+
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #E6AF2E;
+	background-color: #e6af2e;
 }
 
 /* Effect on social media buttons */
