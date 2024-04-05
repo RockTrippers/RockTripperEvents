@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <title>PRJ4 Base Group Template &mdash; Cards UX</title>
+
+    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
+
+    <!-- End of Google Analytics code -->
+    
+  </head>
+  <body class="h-100 d-flex flex-column">
+
+    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid" class="background-color5grey">>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/rocklogo.png" width="100" alt="Rock Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="example.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item active" aria-current="page" href="cards.html">Packages</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="corporate.html">Corporate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+        <!-- banner section  -->
+        <section class="banner">
+          <div class="container d-flex justify-content-between align-items-center">
+          <img src=
+  "https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+              alt="Welcome to our Contact Us page">
+          <h1>Get in Touch With Us</h1>
+          <p>
+            We're here to answer any questions you may have.
+            </p>
+      </section>
+   
+      <!-- Contact form -->
+      <section class="contact-form">
+        <div class="container d-flex justify-content-between align-items-center">
+          <div class="form-container">
+              <h2>Your Details</h2>
+              <form action="#" method="POST">
+   
+                  <label for="name">Name: </label>
+                  <input type="text" id="name" name="name" required>
+   
+                  <label for="email">Email: </label>
+                  <input type="email" id="email" name="email" required>
+   
+                  <label for="phone">Phone: </label>
+                  <input type="tel" id="phone" name="phone">
+   
+                  <label for="message">Message: </label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+   
+                  <button type="submit" class="submit-button">Submit</button>
+              </form>
+          </div>
+      </section>
+
+    <!-- A footer with socials -->
+    <footer class="shadow-lg mt-auto py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>
+          © 2024 &mdash; RockTrippers
+        </p>
+        <p>
+          Corporate Information
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.facebook.com/people/Rock-Tripper/pfbid02gzJMwpfq3W8A7yU4K3is1pQo6G8xvCeaWNrkJE74pfvaWnQoALdQi23V47MbPNBxl/" target="_blank">
+              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/rocktrippers?igsh=MWZpYnR1bWFreWFvdQ==" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End of the footer -->
+
+  </body>
+</html>
