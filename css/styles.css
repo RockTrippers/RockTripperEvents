@@ -3,7 +3,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Oswald, sans-serif;
+	font-family: Oswald, sans-serif; font-weight: 400;
 	background-color: #fffcf8;
 }
 
